@@ -6,6 +6,7 @@ def my_collect(collection)
   mod_collection.push(yield(collection[i]))
   i+=1
 end
+return mod_collection
 end
   
   
