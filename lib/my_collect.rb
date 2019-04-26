@@ -4,6 +4,9 @@ def my_collect(collection)
   end_i = collection.size 
   while(i<end_i)
   mod_collection.push(yield(collection[i]))
+  i+=1
+end
+end
   
   
   
